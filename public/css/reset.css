@@ -1,0 +1,116 @@
+﻿@charset "utf-8";
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/common/grid.css");/*网格*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/common/layout.css");/*整体框架*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/common/icon.css");/*图标*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/navi/navi_02.css");/*02导航*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/banner.css");/*幻灯片*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/navi/classify_01.css");/*侧栏样式*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/adorner/01/A_style.css");/*01装饰器*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/adorner/02/A_style.css");/*02装饰器*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/links.css");/*友情链接*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/kefu.css");/*在线客服*/
+@import url("/web/20200224032322cs_/http://www.gznanwu.com/css/common/doc.css");/*自定义文档*/
+
+a:hover{ text-decoration:none;}
+.header_bg{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/header_bg.jpg) center no-repeat; height:167px;}
+.logo{ position:relative; top:15px; left:50px;}
+.center_bg{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/center_bg.jpg) repeat-x; height:120px;}
+
+.index_main{ background:#FFF;}
+
+.index_left{ padding-left:3px; padding-top:10px; width:198px;}
+.l_first{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/side_top.jpg) center no-repeat; height:14px;}
+.l_last{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/side_bottom.jpg) center no-repeat; height:14px;}
+.l_center{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/side_center.jpg) center repeat-y; padding-bottom:40px;}
+
+.side_title h3{ display:inline; color:#053a63; font-size:16px;}
+.side_title h3 img{ padding-right:5px;}
+.side_title a{ color:#053a63;}
+.side_title{ border-bottom:1px solid #069; padding-left:5px; padding-right:5px; padding-bottom:10px;}
+
+.l_1 ul{ margin-left:5px; margin-top:10px;}
+.l_1 ul li{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li.jpg) left no-repeat; text-indent:10px; line-height:25px;}
+.l_1 ul li a{ color:#053a63;}
+
+.l_2 ul{ margin-left:5px; margin-top:10px;}
+.l_2 ul li{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li.jpg) left no-repeat; text-indent:10px; line-height:25px;}
+.l_2 ul li a{ color:#053a63;}
+
+.l_3 ul{ margin-left:1px; margin-top:10px;}
+.l_3 ul li img{ width:182px; height:113px;}
+.l_3 ul li{ text-align:center; color:#053a63; padding-top:10px;}
+
+.index_right{ padding-right:3px; padding-top:10px; width:198px;}
+.r_first{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/side_top.jpg) center no-repeat; height:14px;}
+.r_last{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/side_bottom.jpg) center no-repeat; height:14px;}
+.r_center{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/side_center.jpg) center repeat-y;}
+
+.r_1 ul{ margin-left:5px; margin-top:10px;}
+.r_1 ul li{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li.jpg) left no-repeat; text-indent:10px; line-height:25px;}
+.r_1 ul li a{ color:#053a63;}
+
+.r_2 ul{ margin-left:5px; margin-top:10px;}
+.r_2 ul li{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li.jpg) left no-repeat; text-indent:10px; line-height:25px;}
+.r_2 ul li a{ color:#053a63;}
+
+.r_3 ul{ margin-left:5px; margin-top:10px;}
+.r_3 ul li{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li.jpg) left no-repeat; text-indent:10px; line-height:25px;}
+.r_3 ul li a{ color:#053a63;}
+
+.r_4 ul{ margin-left:4px; margin-top:5px; text-align:center}
+.r_4 ul li img{ width:120px; height:120px;}
+
+.r_5 ul{ margin-left:5px; margin-top:5px;}
+.r_5 ul li{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li.jpg) left no-repeat; text-indent:10px; line-height:25px;}
+.r_5 ul li a{ color:#053a63;}
+
+
+.index_center{ margin-left:9px;}
+.jz ul li img{ float:left; width:140px; height:90px;}
+.jz ul li{width:140px; height:120px; float:left; padding-left:5px;}
+.jz p{ color:#000; text-align:center; position:relative; top:5px;}
+.jz_bd .tempWrap{ width:580px !important;}
+
+.center_list{ width:285px; height:210px; background:#fff; border:1px solid #DBE9EC;}
+.cen_title img{ padding-left:4px; padding-top:5px;}
+.cen_title a{ float:right; margin-top:-20px; margin-right:10px; z-index:9999; position:relative; color:#053a63;}
+.center_list ul{ padding-left:10px; margin-top:5px;}
+.center_list ul li{ line-height:26px; border-bottom:1px dashed #CCC; background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li_h.jpg) left no-repeat; text-indent:15px;}
+
+.footer_bg{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/bottom_bg.jpg) center no-repeat; height:134px;}
+.f_link ul li{ float:left; padding:20px 0 0 13px;}
+.f_navi ul{ width:850px; margin:0 auto; padding-top:15px;}
+.f_navi ul li{ float:left; padding-right:35px;}
+.f_navi ul li a{ color:#0e67b7;}
+
+.copy_right, .copy_right a{ color:#0e67b7;}
+
+.public_2col{ background:#FFF;}
+.public_1col{ background:#FFF;}
+
+.r_list_title{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/title_r_bg.jpg) no-repeat; width:760px; height:32px;}
+.r_list_title h3{ padding:12px 0 0 30px; font-size:14px; color:#0e67b7;}
+.right_list ul{ margin-top:15px;}
+.right_list ul li{ background:url(/web/20200224032322im_/http://www.gznanwu.com/img/li.jpg) 20px center no-repeat; text-indent:33px; line-height:35px;}
+
+.copy_right p{ color: #0e67b7;}
+/*
+     FILE ARCHIVED ON 03:23:22 Feb 24, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:49:05 Jan 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.49
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.014
+  esindex: 0.009
+  cdx.remote: 6.677
+  LoadShardBlock: 616.644 (3)
+  PetaboxLoader3.resolve: 464.339 (3)
+  PetaboxLoader3.datanode: 341.141 (4)
+  load_resource: 224.524
+*/

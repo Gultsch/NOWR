@@ -1,0 +1,194 @@
+﻿
+/* head   å¤´éƒ¨æ ·å¼
+--------------------------------------------------------------------*/
+.header{
+    height:219px;
+    background:url(/img/center_top.jpg) center no-repeat;
+    z-index:999;
+    margin-top: -250px;
+}
+/* search   æœç´¢æ ·å¼
+--------------------------------------------------------------------*/
+.search{
+    background:url(/img/search.gif) no-repeat left top;
+    height:29px;
+}
+.search input{
+    background:none;
+    border:none;
+    height:29px;
+    line-height:29px;
+    padding-left:10px;
+}
+.search a{
+    display:block;
+    height:29px;
+}
+.search a:hover{
+    text-decoration:none;
+}
+/* picScroll-left   æ ·å¼
+--------------------------------------------------------------------*/
+.picScroll-left{ width:330px;  overflow:hidden; position:relative;  }
+.picScroll-left .hd{ overflow:hidden;  height:15px;}
+.picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:14px; height:14px; float:right; margin-right:5px;  overflow:hidden;cursor:pointer; }
+.picScroll-left .hd .next{ }
+.picScroll-left .hd ul{ float:right; overflow:hidden; zoom:1; zoom:1; }
+.picScroll-left .hd ul li{ float:left;  width:14px; height:14px; overflow:hidden; margin:1px 5px 0px 0px; text-indent:-999px; cursor:pointer; background:#ccc; }
+.picScroll-left .hd ul li.on{ background:#1b5eb1;}
+.picScroll-left .bd{  }
+.picScroll-left .bd ul{ overflow:hidden; zoom:1; }
+.picScroll-left .bd ul li{ margin:0 4px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+.picScroll-left .pic{ margin:0px;padding:0px; overflow:hidden; display:inline; width:90px;}
+
+/*æ–°é—»åˆ—è¡¨
+--------------------------------------------------------------------*/
+.ind_news_list li{
+    border-bottom:1px dashed #ddd;
+    height:30px;
+    line-height:30px;
+}
+.ind_news_list li.first{
+    height:80px;
+    line-height:15px;
+}
+.ind_news_list li a.news_classify{
+
+}
+.ind_news_list li h4{
+    display:inline;
+    background:url(/web/20200224032559im_/http://www.gznanwu.com/img/common/ico_1.gif) no-repeat left 4px;
+    padding-left:14px;
+}
+/*å†…é¡µåˆ—è¡¨
+--------------------------------------------------------------------*/
+.news_list ul li.first{
+    height:160px;
+    line-height:15px;
+}
+.news_list ul li.first img{
+    height:120px;
+}
+/*èµ„è´¨è£èª‰åˆ—è¡¨
+--------------------------------------------------------------------*/
+.honor_list a img{
+    border:solid 1px #ccc;
+}
+.honor_img_01 a img{
+    width:200px;
+}
+.honor_img_02 a img{
+    width:160px;
+}
+/*é¦–é¡µäº§å“åˆ—è¡¨å›¾ç‰‡
+--------------------------------------------------------------------*/
+.recommend ul li img{
+    width:90px;
+    height:90px;
+}
+.recommend ul li{
+    text-align:center;
+}
+/*å†…é¡µäº§å“åˆ—è¡¨å›¾ç‰‡
+--------------------------------------------------------------------*/
+.products_list .pro_info p{
+    line-height:22px;
+}
+.products_list .pic .Small img{
+    width:150px;
+    height:150px;
+}
+/*ä¸‹è½½åˆ—è¡¨å›¾ç‰‡
+--------------------------------------------------------------------*/
+.download ul li .pic img{
+    width:110px;
+    height:110px;
+}
+/*å‹æƒ…é“¾æŽ¥åˆ—è¡¨å›¾ç‰‡
+--------------------------------------------------------------------*/
+.Links ul li img{
+    width:120px;
+    height:50px;
+}
+
+
+/*é¦–é¡µæ ç›®æ¨¡å—
+--------------------------------------------------------------------*/
+.ind_about,.recommend,.ind_news{
+    height:150px;
+    overflow:hidden;
+}
+
+/*é¦–é¡µæ ç›®æ¨¡å—
+--------------------------------------------------------------------*/
+.Sequence{
+    height:22px;
+    overflow:hidden;
+}
+/*æ‹›è˜æŒ‰é’®
+--------------------------------------------------------------------*/
+.hr .b_wrap_1, .hr .b_wrap_1_s, .hr .b_wrap_2, .hr .b_wrap_2_s{
+    float:right;}
+/*æŽ’åºæŒ‰é’®
+--------------------------------------------------------------------*/
+.Sequence_r .b_wrap_1, .Sequence_r .b_wrap_1_s, .Sequence_r .b_wrap_2, .Sequence_r .b_wrap_2_s{
+    float:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 03:25:59 Feb 24, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:49:09 Jan 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.673
+  exclusion.robots: 0.039
+  exclusion.robots.policy: 0.024
+  esindex: 0.013
+  cdx.remote: 60.164
+  LoadShardBlock: 1356.195 (3)
+  PetaboxLoader3.datanode: 1393.763 (5)
+  load_resource: 216.299 (2)
+  PetaboxLoader3.resolve: 112.189
+*/

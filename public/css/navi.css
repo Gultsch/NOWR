@@ -1,0 +1,208 @@
+/* navi_01å¯¼èˆªæ ·å¼  
+--------------------------------------------------------------------*/
+.navBar {
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	background:url(/web/20200224034122im_/http://www.gznanwu.com/img/navi/navi_02/nav_bg.gif) repeat-x left -78px;
+	height:39px;
+	line-height:39px;
+	margin-top: 36px;
+}
+.navBar .nav li.first{
+	height:39px;
+	width:5px;
+	background:url(/web/20200224034122im_/http://www.gznanwu.com/img/navi/navi_02/nav_bg.gif) no-repeat left 0px;
+	float:left;
+}
+.navBar .nav li.last{
+	height:37px;
+	width:5px;
+	background:url(/web/20200224034122im_/http://www.gznanwu.com/img/navi/navi_02/nav_bg.gif) no-repeat right -40px;
+	float:right;
+}
+
+/*nav*/
+.nav {
+	width: 1000px;
+	margin: 0 auto;
+}
+.nav h3 {
+	font-size: 100%;
+	font-weight: normal;
+	font-size: 14px;
+}
+.nav .m {
+	position: relative;
+	float: left;
+	width: 99px;
+	/*margin: 0 10px;*/
+	display: inline;
+	text-align: center;
+	background:url(/web/20200224034122im_/http://www.gznanwu.com/img/navi_li.jpg) right no-repeat;
+}
+#m10{ background:none;}
+
+.nav .m h3 i {/*ç®­å¤´*/
+	display: inline-block;
+	zoom: 1;
+	width: 7px;
+	height: 4px;
+	background: url(/web/20200224034122im_/http://www.gznanwu.com/img/common/ico_2_w.gif) no-repeat center center;
+	overflow: hidden;
+	margin: -2px 0 0 5px;
+	vertical-align: middle;
+	/**display:inline;*/
+	display:none;
+}
+
+.nav h3 a:link, .nav h3 a:visited {
+	zoom: 1;
+	width: 99px;
+	height: 39px;
+	line-height: 39px;
+	display: block;
+	color: #fff;
+	text-align:center;
+}
+
+/*å½“å‰çŠ¶æ€*/
+.nav .cur h3 a:link, .nav .cur h3 a:visited {
+	height:39px;
+	background:url(/web/20200224034122im_/http://www.gznanwu.com/img/navi_li_hover.png) no-repeat;
+	
+}
+.nav .on h3 a:link, .nav .on h3 a:visited {
+	background:url(/web/20200224034122im_/http://www.gznanwu.com/img/navi_li_hover.png) no-repeat;
+	height:39px;
+}
+.nav .on h3 a i {
+}
+
+/*ä¸€çº§*/
+.nav .sub {
+	display: none; /*é»˜è®¤éšè—*/
+	width: 99px;
+	position: absolute;
+	left: 0px;
+	top: 39px;
+	float: left;
+	line-height: 26px;
+	overflow:visible;
+	_width:500%;
+	_border-bottom:none;
+}
+.nav .sub li {
+	text-align: center;
+}
+.nav .sub li a:link, .nav .sub li a:visited {
+	color: #fff;
+	display: block;
+	zoom: 1;
+	border-top:none;
+	background:url(/web/20200224034122im_/http://www.gznanwu.com/img/sub_li_hover.png) no-repeat;
+	border-bottom:none;
+	_width:100px;
+	_float:left;
+	_display:inline-block;
+}
+.nav .sub li a:hover {
+}
+
+
+/*äºŒçº§*/
+.nav .m2 {
+	position: relative;
+	width: 100%;
+	display:inline-block;
+	text-align: left;
+	*float:left;
+	*display:block;
+}
+.nav .sub2 {
+	display: none; /*é»˜è®¤éšè—*/
+	width: 99px;
+	position: absolute;
+	z-index: 3;
+	left: 100%;
+	top: 0px;
+	line-height: 26px;
+	_left: 100px;
+}
+
+/*ä¸‰çº§*/
+.nav .m3 {
+	position: relative;
+	width: 100%;
+	display:inline-block;
+	text-align: left;
+	*float:left;
+	*display:block;
+}
+.nav .sub3 {
+	display: none; /*é»˜è®¤éšè—*/
+	width: 100px;
+	position: absolute;
+	z-index: 3;
+	left: 100%;
+	top: 0px;
+	line-height: 30px;
+	border-top:solid 1px #CCC;
+	border-bottom:solid 1px #CCC;
+	_left: 100px;
+}
+
+/*è‡ªå®šä¹‰ä¸‹æ‹‰*/
+.nav .m2 .sub {
+	z-index: 1;
+	background:#eee;
+	width: 980px;
+	left: -806px;
+}
+.nav .sub dl {
+	display: inline-block;
+	zoom: 1;
+	vertical-align: top;
+	padding: 15px 29px;
+	line-height: 26px;
+	*display:inline;
+}
+.nav .sub dl a:hover {
+	color: #1b5eb1;
+}
+.nav .sub dl dt a:link, .nav .sub dl dt a:visited  {
+	color: #000;
+}
+.nav .sub dl dd a:link, .nav .sub dl dd a:visited {
+	color: #999;
+	padding-left: 7px;
+	background: url(/web/20200224034122im_/http://www.gznanwu.com/css/navi/images/icon.png) 0 -332px no-repeat;
+}
+
+
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 03:41:22 Feb 24, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:49:07 Jan 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.487
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 27.02
+  LoadShardBlock: 193.389 (3)
+  PetaboxLoader3.datanode: 206.376 (5)
+  PetaboxLoader3.resolve: 184.076 (3)
+  load_resource: 281.671 (2)
+*/
