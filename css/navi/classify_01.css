@@ -1,0 +1,95 @@
+/* classify_01侧栏样式  
+--------------------------------------------------------------------*/
+.classify{
+	position:relative;
+	border:1px solid #B1CEDC;
+	margin:20px 0 0 10px;
+}
+.classify h3{
+	font-size:16px;
+	height:36px;
+	line-height:36px;
+	padding-left:20px;
+	background:url(http://www.gznanwu.com/img/ny_title.jpg) no-repeat;
+	/*border-bottom:solid 1px #e6e6e6;*/
+}
+.classify li{
+	width:100%;
+	line-height:36px;
+	position:relative;
+	font-size:12px;
+	border-bottom:1px solid #C9EAFF;
+}
+.classify li a{
+	position:relative;
+	display:block;
+	text-indent:15px;
+	color:#1b5eb1;
+}
+.classify ul{
+	background:#E9F3F5;
+}
+.classify ul li a:hover{
+	font-weight:bolder;
+}
+.classify ul li.current a.cur:link,.classify li.current a.cur:visited{
+	color:#1b5eb1;
+	font-weight:bolder;
+}
+
+/*二级*/
+.classify ul li .child{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.classify ul li .child ul li{
+	border-bottom:1px solid #fff;
+	border:none;
+	*background:#f9f9f9;
+	_background:#f9f9f9;
+}
+.classify ul li .child ul li a{
+	background:#f9f9f9;
+	border-bottom:1px solid #F5F5F5;
+	*display:inline-block;
+	_display:inline-block;
+	_height:24px;
+	_margin-top:2px;
+}
+
+/*箭头*/
+.classify li .arrow{
+	position:absolute;
+	width:30px;
+	height:30px;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+.classify li .arrow a{
+	display:block;
+	width:30px;
+	height:30px;
+}
+.classify li .arr_01 a{
+	background:url(../../img/common/ico_1.gif) no-repeat center center;
+}
+.classify .current .arr_01 a{
+	background:url(../../img/common/ico_1_w.gif) no-repeat center center;
+}
+.classify li .arr_01 a:hover{
+	background:url(http://www.gznanwu.com/img/common/ico_3_w.gif) #1b5eb1 no-repeat center center;
+}
+.classify li .on a{
+	background:url(../../img/common/ico_2_w.gif) #1b5eb1 no-repeat center center;
+}
+.classify li .on a:hover{
+	background:url(../../img/common/ico_2_w.gif) #1b5eb1 no-repeat center center;
+}
+.classify .current .on a{
+	background:url(../../img/common/ico_2_w.gif) #1b5eb1 no-repeat center center;
+}
