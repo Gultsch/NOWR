@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* 企泰科技 技术部 2012-10-01 */
+
+/* 分页样式 */
+/* pageGuide  
+--------------------------------------------------------------------*/
+.pageGuide{
+	width:100%;
+	font-size: 12px;
+	padding-top:20px;}
+.pageinfo{
+	float:left;}
+.paging{
+	float:right;
+	text-align:right;}
+.paging a{
+	display:inline-block;
+	margin-left:6px;
+	border:1px solid #dddddd;
+	background:url(../../img/common/Gui.gif) repeat-x left -40px;
+	padding-left:4px;
+	padding-right:4px;
+	height:18px;
+	line-height:18px;
+	overflow:hidden;_line-height:17px;
+	}
+.paging .current:link, .paging .current:visited, .paging .current:active{
+	background:url(../../img/common/Gui.gif) repeat-x left top;
+	color:#fff;
+	border:1px solid #1b5eb1;
+	}
+.paging a:link, .paging a:visited, .paging a:active{
+	color:#666;
+	}
+.paging a:hover{
+	background:url(../../img/common/Gui.gif) repeat-x left -80px;
+	color:#424242;
+	text-decoration:none;
+	border:1px solid #9d9d9d;
+	}

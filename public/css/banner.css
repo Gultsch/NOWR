@@ -1,0 +1,64 @@
+/* slideBox样式  
+--------------------------------------------------------------------*/
+.slideBox {
+	overflow: hidden;
+	position: relative;
+}
+.slideBox .hd {
+	height: 20px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1;
+}
+.slideBox .hd ul {
+	overflow: hidden;
+	zoom: 1;
+}
+.slideBox .hd ul li {
+	display:inline-block;
+	margin-right: 2px;
+	width: 15px;
+	height: 15px;
+	line-height: 14px;
+	text-align: center;
+	background: #fff;
+	border:solid 1px #1b5eb1;
+	cursor: pointer;
+	*line-height: 20px;
+	*display:inline;
+	*height:0px;
+	*padding-left:4px;
+	*padding-top:0px;
+	*padding-bottom:0px;
+}
+.slideBox .hd ul li.on {
+	background: #1b5eb1;
+	border:solid 1px #1b5eb1;
+	color: #fff;
+}
+.slideBox .bd {
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+.slideBox .bd ul li{
+	width: 100%;
+	height: 320px;
+}
+.slideBox .bd img {
+	width: 100%;
+	height: 320px;
+	display: block;
+}
+/*page slideBox*/
+.page_banner {
+	overflow: hidden;
+}
+.page_banner img {
+	width:100%;
+}
+.page_banner .BMap_Marker img {
+	width:auto;
+}/*百度地图兼容*/

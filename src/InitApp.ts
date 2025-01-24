@@ -1,3 +1,3 @@
-﻿const TAG = "InitApp"
+const TAG = "InitApp"
 
-console.log(TAG,"Reco by E")
+console.log(TAG, "App inited")

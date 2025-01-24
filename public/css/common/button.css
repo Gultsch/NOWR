@@ -1,10 +1,10 @@
-﻿/* button   全局按钮  
+/* button   全局按钮  
 --------------------------------------------------------------------*/
 
 /*按钮1样式---------------------------------------*/
 .button_1_b{
 	display:block;
-	background:url(../../img/common/button/button_bg.gif) repeat-x left top;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x left top;
 	border:1px solid #1b5eb1;
 	height:30px;
 	line-height:30px;
@@ -17,7 +17,7 @@
 	color:#fff;
 }
 .button_1_b:hover{
-	background:url(../../img/common/button/button_bg.gif) repeat-x left -30px;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x left -30px;
 	text-decoration:none;
 }
 .button_1_b:active{
@@ -26,7 +26,7 @@
 /*按钮1样式-小---------------------------------------*/
 .button_1_s{
 	display:block;
-	background:url(../../img/common/button/button_bg.gif) repeat-x left top;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x left top;
 	border:1px solid #1b5eb1;
 	height:20px;
 	line-height:20px;
@@ -38,7 +38,7 @@
 	color:#fff;
 }
 .button_1_s:hover{
-	background:url(../../img/common/button/button_bg.gif) repeat-x left -30px;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x left -30px;
 	text-decoration:none;
 }
 .button_1_s:active{
@@ -48,7 +48,7 @@
 /*按钮2样式---------------------------------------*/
 .button_2_b{
 	display:block;
-	background:url(../../img/common/button/button_bg.gif) repeat-x -300px top;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x -300px top;
 	border:1px solid #dadada;
 	height:30px;
 	line-height:30px;
@@ -61,7 +61,7 @@
 	color:#1b5eb1;
 }
 .button_2_b:hover{
-	background:url(../../img/common/button/button_bg.gif) repeat-x -300px -30px;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x -300px -30px;
 	text-decoration:none;
 }
 .button_2_b:active{
@@ -71,7 +71,7 @@
 /*按钮2样式-小---------------------------------------*/
 .button_2_s{
 	display:block;
-	background:url(../../img/common/button/button_bg.gif) repeat-x -300px top;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x -300px top;
 	border:1px solid #dadada;
 	height:20px;
 	line-height:20px;
@@ -83,7 +83,7 @@
 	color:#1b5eb1;
 }
 .button_2_s:hover{
-	background:url(../../img/common/button/button_bg.gif) repeat-x -300px -30px;
+	background:url(http://gznanwu.com/img/common/button/button_bg.gif) repeat-x -300px -30px;
 	text-decoration:none;
 }
 .button_2_s:active{
@@ -108,4 +108,3 @@
 .input-xxlarge {
   width: 530px;
 }
-
